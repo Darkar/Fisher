@@ -1,0 +1,19 @@
+{
+    "app" : {
+        "name" : "Fisher",
+        "version" : "1.1a",
+        "author" : { 
+            "firstname" : "Jérémy", 
+            "lastname" :  "Magnan", 
+            "email": "jeremy@magnan.one" 
+        }
+    },
+    "settings" : {
+        "output-filename" : "fisher",
+        "host" : "localhost",
+        "port" : 8080,
+        "ssl" : "off",
+        "cert" : "",
+        "key" : ""
+    }
+}
