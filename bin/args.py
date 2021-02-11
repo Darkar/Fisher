@@ -14,10 +14,10 @@ def args():
 
     url_regex = re.match("^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$", args.url)
 
-    config = Config()
-
     if args.config:
         config = Config(args.config)
+    else:
+        config = Config()
         
     if args.server:
         server = args.server
